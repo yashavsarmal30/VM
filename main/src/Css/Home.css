@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;1,600&family=EB+Garamond:wght@500;800&family=Libre+Baskerville&family=Oswald:wght@200;300;400;500;600;700&family=Pathway+Gothic+One&family=Sofia+Sans+Condensed:wght@600;700&family=Sofia+Sans+Extra+Condensed:ital,wght@0,600;0,700;0,800;1,900&family=Vollkorn:ital,wght@1,500;1,800&display=swap');
+
+
+.showOff,
+.earbuds,
+.mobile,
+.watch {
+  height: 300px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  background-color: rgb(216, 66, 91);
+}
+
+.showOff:hover {
+  background-size: 245%;
+  transition: all 0.3s ease;
+}
+
+.earbuds:hover {
+  background-size: 290%;
+  transition: all 0.3s ease;
+}
+
+.mobile:hover {
+  background-size: 290%;
+  transition: all 0.3s ease;
+}
+
+.watch:hover {
+  background-size: 170%;
+  transition: all 0.3s ease;
+}
+
+/* //////////////////////////////////////// */
+.homecard {
+  height: 300px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: rgba(76, 23, 23, 0.35) 0px 5px 15px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.homecard:hover {
+  background-size: 120%;
+  transition: all 0.3s ease;
+  
+}
+
+/* //////////////////////////////////// */
+.bestdeal:hover {
+  box-shadow: rgba(76, 23, 23, 0.35) 0px 30px 60px -12px inset, rgba(76, 23, 23, 0.35) 0px 18px 36px -18px inset;
+  transition: all 0.3s ease;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.mobilegb{
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.mobilegb:hover{
+  width: 110%;
+}
